@@ -1,0 +1,12 @@
+command:
+  - "streamlit"
+  - "run"
+  - "app.py"
+  - "--server.port"
+  - "8000"
+  - "--server.address"
+  - "0.0.0.0"
+
+env:
+  - name: VECTOR_SEARCH_INDEX
+    valueFrom: vector-search-index
